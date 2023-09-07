@@ -1,0 +1,1296 @@
+body {
+  font-family: "Bad Script", cursive;
+  font-family: "Golos Text", sans-serif;
+}
+.heder {
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+/* шапка навигации 
+/
+/
+*/
+.navHeder {
+  position: relative;
+  z-index: 100;
+}
+.navHederFlex {
+  position: sticky;
+  left: 0;
+  top: 0;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  padding: 60px;
+}
+.logo {
+  flex: 0 0 60px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 10px #0467f3;
+  border-radius: 50%;
+}
+.imgLogo {
+  max-width: 100%;
+  max-height: 100%;
+}
+.ulHederNav {
+  display: flex;
+}
+.linkNav {
+  font-family: "Shantell Sans", cursive;
+  color: #000;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition-duration: 0.3s;
+  transition-property: text-shadow, text-decoration, color;
+}
+.linkNav:hover {
+  cursor: pointer;
+  color: #0467f3;
+  text-shadow: 0px 0px 5px #0467f3;
+  text-decoration: underline;
+}
+@media (max-width: 1020px) {
+  .ulHederNav {
+    display: none;
+  }
+  .navHederFlex {
+    justify-content: center;
+  }
+  .logo:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #05f511;
+  }
+}
+
+/*
+/
+/
+ Шапка навигации */
+/* Хедер
+ /
+ /
+ */
+
+.h1 {
+  padding: 50px 0px 50px 50px;
+  margin-left: 364px;
+  display: inline-block;
+  background-color: #fff;
+  position: relative;
+  z-index: 5;
+  color: rgb(255, 93, 5);
+  font-size: 80px;
+  font-family: "Bad Script", cursive;
+  font-family: "Shantell Sans", cursive;
+  letter-spacing: 5px;
+}
+.wraperHeder {
+  position: relative;
+}
+
+.square {
+  position: relative;
+  max-width: 652px;
+  height: 694px;
+  background-color: #f1c50e;
+  margin: 150px 0px 0px 400px;
+}
+.hederImg {
+  position: relative;
+  width: 652px;
+  height: 744px;
+  z-index: 4;
+  margin: -900px 361px 0px 177px;
+  box-sizing: content-box;
+}
+.img1 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 4;
+}
+.titleHeder {
+  padding: 30px;
+  background-color: #fff;
+  position: relative;
+  max-width: 700px;
+  margin: -110px 0px 0px 30px;
+  z-index: 5;
+  font-weight: 100;
+}
+.h2Heder {
+  text-align: left;
+  padding: 20px 0px 0px 30px;
+  color: rgb(255, 93, 5);
+  font-size: 3em;
+  font-weight: 900;
+  font-family: "Bad Script", cursive;
+  font-family: "Shantell Sans", cursive;
+}
+.textHeder {
+  font-size: 1.25rem;
+  text-align: left;
+  padding: 50px 30px 0px 30px;
+  line-height: 1.7;
+  word-spacing: 2.5px;
+}
+.button {
+  text-align: center;
+  margin: 30px 0px 30px 0px;
+}
+.buttonHeder {
+  text-transform: uppercase;
+  font-size: 15px;
+  width: 250px;
+  height: 50px;
+  border: 2px solid rgb(255, 93, 5);
+  border-radius: 50px;
+  text-align: center;
+  transition-duration: 0.5s;
+  transition-property: background-color, box-shadow;
+}
+.buttonHeder:hover {
+  background-color: rgb(255, 93, 5);
+  box-shadow: 2px 5px 5px #000;
+}
+@media (max-width: 1400px) {
+  .h1 {
+    padding: 50px 0px 50px 50px;
+    margin-left: 300px;
+    font-size: 65px;
+    letter-spacing: 5px;
+  }
+  .titleHeder {
+    margin: -110px 0px 0px 30px;
+  }
+
+  .h2Heder {
+    text-align: left;
+    padding: 20px 0px 0px 30px;
+    color: rgb(255, 93, 5);
+    font-size: 3em;
+    font-weight: 700;
+  }
+}
+@media (max-width: 1020px) {
+  .h1 {
+    padding: 50px 0px 50px 50px;
+    margin-left: 200px;
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+  .titleHeder {
+    margin: -110px 0px 0px -10px;
+  }
+
+  .h2Heder {
+    text-align: left;
+    padding: 20px 0px 0px 0px;
+    color: rgb(255, 93, 5);
+    font-size: 3em;
+    font-weight: 700;
+  }
+  .hederImg {
+    margin: -900px 361px 0px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .h1 {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 50px;
+    margin: 0px auto;
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+  .hederImg {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .img1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .square {
+    display: none;
+  }
+  .titleHeder {
+    margin: 0;
+  }
+  .textHeder {
+    text-align: center;
+  }
+  .h2Heder {
+    text-align: center;
+  }
+}
+/* 
+/
+/
+Хедер */
+
+/*
+/
+/
+секция советы по уборке */
+.adviсe {
+  background-color: #f1b5b8;
+}
+.adviceFlex {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 80%;
+}
+.adviceImg {
+  flex: 0 0 50%;
+  box-sizing: content-box;
+}
+.imgAdvice {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.adviceText {
+  flex: 0 0 50%px;
+  background-color: #fff;
+}
+.adviceH2 {
+  padding: 0px 40px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 2.125rem;
+  font-weight: 400;
+  margin: 30px 0px 0px 0px;
+  &::before {
+    content: "";
+    display: block;
+    height: 10px;
+    background: #f1b5b8;
+    width: 70%;
+    margin: 0px auto 20px auto;
+  }
+}
+.adviсeSpan {
+  display: block;
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 20px;
+  font-weight: 100;
+  color: #0000009c;
+}
+.adviceButton {
+  text-align: center;
+}
+.adviceButtonVan {
+  font-size: 15px;
+  width: 250px;
+  height: 50px;
+  background-color: #f1b5b869;
+  text-transform: uppercase;
+  transition-duration: 0.5s;
+  transition-property: background-color;
+}
+.adviceButtonVan:hover {
+  background-color: #f1b5b8;
+}
+/* text */
+.adviceContainerFlex {
+  display: flex;
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+}
+
+.adviceBathroom {
+  text-align: center;
+  padding: 25px 30px;
+}
+.adviceBroom {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: #f1b5b8;
+  margin: 0px auto;
+}
+.adviceImgBroom {
+  width: 70%;
+  margin: 9px;
+}
+
+.bathroomH3 {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0px 20px 0px;
+}
+.bathroomP {
+  font-size: 1.3em;
+  margin: 0px 0px 20px 0px;
+  letter-spacing: -1px;
+}
+.bathroomButtonDiv {
+  margin-bottom: 30px;
+}
+.bathroomButton {
+  font-size: 25px;
+  font-weight: 200;
+  background-color: #fff;
+  color: #f1b5b8;
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #f1b5b8;
+    margin: 5px 0px 0px 0px;
+  }
+}
+.adviceKitchens {
+  padding: 25px 30px;
+}
+.adviceWindow {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: #f1b5b8;
+  margin: 0px auto;
+}
+.adviceImgWindow {
+  width: 100%;
+}
+.kitchensH3 {
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0px 20px 0px;
+}
+.kitchensP {
+  font-size: 1.3em;
+  margin: 0px 0px 20px 0px;
+  letter-spacing: -1px;
+}
+.kitchensButtonDiv {
+  margin-bottom: 30px;
+}
+.kitchensButton {
+  font-size: 25px;
+  font-weight: 200;
+  background-color: #fff;
+  color: #f1b5b8;
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #f1b5b8;
+    margin: 5px 0px 0px 0px;
+  }
+}
+@media (max-width: 1440px) {
+  .adviceFlex {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .adviceFlex {
+    flex-direction: column;
+  }
+}
+@media (max-width: 750px) {
+  .adviceContainerFlex {
+    padding-top: 50px;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 0px auto;
+  }
+}
+/* 
+/
+/
+секция светы по уборке */
+/* 
+/
+/
+Услуги глубокой очистки */
+
+.deepFlex {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+.deepH2 {
+  flex: 0 0 33.3%;
+}
+.deepH2Text {
+  font-size: 3em;
+  color: #f1b5b8;
+}
+.deepP1 {
+  padding-left: 30px;
+  flex: 0 0 33.3%;
+}
+.deepP1Text {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+.deepP2 {
+  padding-left: 30px;
+  flex: 0 0 33.3%;
+}
+.deepP2Text {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+.deepButton {
+  padding: 40px 0px;
+  text-align: left;
+}
+.deepButtonInput {
+  font-size: 25px;
+  font-weight: 200;
+  background-color: #fff;
+  color: #f1b5b8;
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #f1b5b8;
+    margin: 5px 0px 0px 0px;
+  }
+}
+@media (max-width: 1770px) {
+  .deepH2Text {
+    font-size: 2.7em;
+  }
+}
+@media (max-width: 1570px) {
+  .deepH2Text {
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 1450px) {
+  .deepH2Text {
+    font-size: 2.3em;
+  }
+}
+@media (max-width: 1400px) {
+  .deepFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 40px;
+  }
+  .deepH2Text {
+    font-size: 2.7em;
+  }
+}
+@media (max-width: 768px) {
+  .deepFlex {
+    flex-direction: column;
+  }
+  .deepP1,
+  .deepP2 {
+    padding: 30px 0px 0px 0px;
+  }
+}
+/* 
+/
+/
+Услуги глубокой очистки */
+/* 
+/
+/
+ что говорят наши клиенты */
+.reviews {
+  background-color: #f1b5b8;
+}
+.reviewsWraper {
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 70px 0px 70px 0px;
+}
+.rewiewsH2 {
+  max-width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+}
+.rewiewsH2Text {
+  padding: 0px 0px 30px 0px;
+  font-size: 4em;
+  font-weight: 400;
+  color: #fff;
+}
+.rewiewsFlex {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: nowrap;
+  margin: 20px 30px;
+}
+.cardFlex1 {
+  display: flex;
+
+  justify-content: space-between;
+}
+.rewiewsCard1 {
+  display: flex;
+  flex: 0 0 50%;
+  background-color: #fff;
+  border-radius: 2%;
+  padding: 30px;
+  margin: 0px 5px 5px 0px;
+}
+.card1Img {
+  flex: 0 0 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 10px #f1b5b8;
+  margin-right: 30px;
+}
+.imgCard1 {
+  width: 100%;
+}
+.card1Content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.nameCard1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.spanCard1 {
+  display: block;
+  opacity: 0.5;
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+
+.pCard1 {
+  font-size: 1rem;
+  line-height: 2;
+  padding: 0px 30px 0px 0px;
+}
+.rewiewsCard2 {
+  display: flex;
+  flex: 0 0 50%;
+  background-color: #fff;
+  border-radius: 2%;
+  padding: 30px;
+  margin: 0px 0px 5px 5px;
+}
+.card2Img {
+  flex: 0 0 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 10px #f1b5b8;
+  margin-right: 30px;
+}
+.imgCard2 {
+  width: 100%;
+}
+
+.card2Name {
+  font-size: 1.2em;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.spanCard2 {
+  display: block;
+  opacity: 0.5;
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+
+.pCard2 {
+  font-size: 1rem;
+  line-height: 2;
+  padding: 0px 30px 0px 0px;
+}
+.cardFlex2 {
+  display: flex;
+
+  justify-content: space-between;
+}
+.rewiewsCard3 {
+  display: flex;
+  flex: 0 0 50%;
+  background-color: #fff;
+  border-radius: 2%;
+  padding: 30px;
+  margin: 5px 5px 0px 0px;
+}
+.card3Img {
+  flex: 0 0 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 10px #f1b5b8;
+  margin-right: 30px;
+}
+.imgCard3 {
+  width: 100%;
+}
+
+.card3Content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.card3Name {
+  font-size: 1.2em;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.spanCard3 {
+  display: block;
+  opacity: 0.5;
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+
+.pCard3 {
+  font-size: 1rem;
+  line-height: 2;
+  padding: 0px 30px 0px 0px;
+}
+.rewiewsCard4 {
+  display: flex;
+  flex: 0 0 50%;
+  background-color: #fff;
+  border-radius: 2%;
+  padding: 30px;
+  margin: 5px 0px 0px 5px;
+}
+.card4Img {
+  flex: 0 0 72px;
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 10px #f1b5b8;
+  margin-right: 30px;
+}
+.imgCard4 {
+  width: 100%;
+}
+.card4Content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.card4Name {
+  font-size: 1.2em;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+
+.spanCard4 {
+  display: block;
+  opacity: 0.5;
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+
+.pCard4 {
+  font-size: 1rem;
+  line-height: 2;
+  padding: 0px 30px 0px 0px;
+}
+@media (max-width: 900px) {
+  .cardFlex1,
+  .cardFlex2 {
+    flex-wrap: wrap;
+  }
+  .rewiewsCard1,
+  .rewiewsCard2,
+  .rewiewsCard3,
+  .rewiewsCard4 {
+    flex: 0 0 100%;
+    margin: 10px 0px 0px 0px;
+    border-radius: 20px;
+  }
+}
+/* 
+/
+/
+ что говорят наши клиенты */
+/* 
+ /
+ /
+  Уборка для особых мероприятий*/
+
+.eventsWraper {
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 80px 30px 80px 30px;
+}
+.eventsWraperFlex {
+  display: flex;
+  justify-content: center;
+}
+.eventsWraperText {
+  flex: 0 0 404px;
+  padding: 30px;
+}
+.eventsWraperTextArrow {
+  width: 87px;
+  height: 87px;
+  background-color: #f1b5b8;
+  border-radius: 50%;
+  margin-bottom: 33px;
+}
+.eventsWraperTextArrowImg {
+  display: block;
+  margin: 0px auto;
+  padding-top: 18px;
+}
+.eventsWraperTextArrowP {
+  font-size: 1.125rem;
+  text-align: left;
+  line-height: 1.6;
+  line-height: -2px;
+}
+
+.eventsWraperTooImg {
+  max-width: 606px;
+}
+.imgEventsWraperToo {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.eventsWraperTooSquare {
+  width: 640px;
+  height: 410px;
+  background-color: #f1c50e;
+  position: relative;
+  margin: -300px 0px 0px 100px;
+}
+.eventsWraperH2 {
+  max-width: 550px;
+  position: relative;
+  margin: -135px 0px 0px 300px;
+  background-color: #fff;
+  z-index: 2;
+}
+.eventsH2 {
+  font-size: 3.5rem;
+  line-height: 1.4;
+  color: #f1b5b8;
+}
+@media (max-width: 1285px) {
+  .eventsWraperTooSquare {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .eventsWraperH2 {
+    max-width: 100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .eventsWraperFlex {
+    flex-direction: column;
+  }
+  .eventsWraperTooImg {
+    max-width: 100%;
+  }
+  .eventsWraperText {
+    flex: 0 0 0px;
+    padding: 30px;
+  }
+  .eventsWraperTextArrow {
+    display: none;
+  }
+  .eventsWraper {
+    padding-top: 30px;
+  }
+  .eventsH2 {
+    font-size: 3rem;
+  }
+}
+/* 
+ /
+ /
+  Уборка для особых мероприятий*/
+/* 
+/
+/
+Как это работает */
+.how {
+  background-color: #f1b5b8;
+}
+.howWraper {
+  position: relative;
+  max-width: 1300px;
+  margin: 0px auto;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.howH3 {
+  position: absolute;
+  z-index: 5;
+  margin: 60px 0px 0px 600px;
+}
+.h3How {
+  background-color: #fff;
+  max-width: 600px;
+  display: inline-block;
+  font-size: 60px;
+  color: #f1b5b8;
+  padding: 40px 30px;
+}
+.band {
+  position: absolute;
+  z-index: 0;
+  width: 400px;
+  height: 100%;
+  background-color: #fbeced;
+  margin-left: 600px;
+}
+.howImg {
+  max-width: 841px;
+  max-height: 575px;
+  position: relative;
+  margin: 120px 0px 0px 230px;
+}
+.imgHow {
+  width: 100%;
+}
+.howFlex {
+  position: relative;
+  margin: -250px 0px 40px -40px;
+  display: flex;
+  width: 524px;
+  flex-direction: column;
+}
+.boxHowOne {
+  display: flex;
+  flex: 0 0 50%;
+  z-index: 6;
+}
+.boxHowToo {
+  display: flex;
+  flex: 0 0 50%;
+  z-index: 6;
+}
+.boxHow {
+  box-shadow: 5px 5px 20px 0px #00000083;
+  background-color: #ffffff;
+  margin: 10px;
+  width: 240px;
+  height: 240px;
+}
+.boxLogo {
+  background-color: #f1b5b8;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  margin: 20px 0px 0px 20px;
+}
+.logoBox {
+  display: block;
+  margin: 0px auto;
+  padding-top: 25px;
+  width: 50%;
+}
+.textBox {
+  margin: 20px 0px 0px 0px;
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin: 23px 0 0;
+  padding: 0px 20px 20px 20px;
+  color: #db545a;
+}
+.spanTextBox {
+  font-weight: 900;
+}
+@media (max-width: 1350px) {
+  .howFlex {
+    margin: -250px 0px 40px 220px;
+  }
+}
+@media (max-width: 1100px) {
+  .howImg {
+    margin: 120px auto 0px auto;
+  }
+  .band {
+    margin-left: 470px;
+  }
+}
+@media (max-width: 1000px) {
+  .howH3 {
+    margin: 0px;
+  }
+  .howFlex {
+    position: relative;
+    margin: -250px auto 40px auto;
+    display: flex;
+    width: 524px;
+    flex-direction: column;
+  }
+  .band {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .howFlex {
+    margin: 0px auto;
+  }
+  .howH3 {
+    position: static;
+    margin: 40px 0px 0px 0px;
+    width: 100%;
+  }
+
+  .h3How {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+  .howImg {
+    margin: 0px auto;
+  }
+}
+@media (max-width: 530px) {
+  .boxHowOne,
+  .boxHowToo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxHowOne,
+  .boxHowToo {
+    flex: 0 0 auto;
+  }
+  .howFlex {
+    width: 100%;
+  }
+}
+/* 
+/
+/
+Как это работает */
+/* 
+ /
+ /
+  Услуги по уборке*/
+.CleaningServices {
+  background-color: #e5e5e5;
+}
+.servicesWraper {
+  max-width: 1300px;
+  margin: 0px auto;
+}
+.servicesFlex {
+  display: flex;
+  padding: 70px 20px 120px 20px;
+}
+.servicesImg {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  position: relative;
+}
+.servicesImgFlexOne {
+  display: flex;
+}
+.servicesFlexImg {
+  border: 15px solid rgb(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  width: 262px;
+  height: 228px;
+  z-index: 1;
+}
+.imgServicesFlex {
+  position: relative;
+  margin: 0px 0px 0px -30px;
+  width: auto;
+  height: 100%;
+  display: block;
+  z-index: 1;
+}
+
+.servicesImgFlexToo {
+  display: flex;
+}
+
+.servicesSquare {
+  width: 450px;
+  height: 420px;
+  background-color: #f1b5b8;
+  position: absolute;
+  z-index: 0;
+  margin: 60px 0px 0px 100px;
+}
+.servicesText {
+  flex: 0 0 50%;
+  padding: 40px 20px 20px 60px;
+}
+
+.h2Services {
+  display: block;
+  font-size: 2.25rem;
+  color: #f1b5b8;
+  padding-bottom: 40px;
+}
+
+.liServices {
+  line-height: 2;
+  font-size: 20px;
+  background: url("../img/27406.svg") 0 12px / 15px 15px no-repeat;
+  padding-left: 25px;
+}
+
+.buttonSERVICES {
+  display: block;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  height: 60px;
+  background-color: #f1b5b8;
+  color: #fff;
+  margin: 30px 0px 0px 0px;
+}
+@media (max-width: 1050px) {
+  .servicesFlexImg {
+    width: 232px;
+    height: 198px;
+  }
+  .servicesSquare {
+    width: 450px;
+    height: 370px;
+
+    margin: 60px 0px 0px 40px;
+  }
+}
+@media (max-width: 900px) {
+  .servicesFlex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 550px) {
+  .servicesFlexImg {
+    width: 182px;
+    height: 148px;
+  }
+  .servicesSquare {
+    width: 350px;
+    height: 270px;
+
+    margin: 0px 0px 0px 0px;
+  }
+}
+.formServices {
+  text-align: center;
+  padding: 30px;
+}
+.inputForm {
+  padding-left: 15px;
+  border: 1px solid#000;
+  border-radius: 10px;
+  display: block;
+  width: 60%;
+  height: 40px;
+  margin-top: 50px;
+  font-size: 20px;
+  text-decoration: 0.5;
+}
+.inputForm:focus {
+  box-shadow: 0px 0px 10px #000;
+}
+.textarea {
+  padding-top: 15px;
+  height: 150px;
+}
+.buttonForm {
+  margin: 50px 0px 80px 0px;
+  display: block;
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #f1b5b8;
+  font-size: 20px;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+.buttonForm:hover {
+  background-color: green;
+  box-shadow: 5px 5px 5px green;
+}
+/* 
+/
+/
+Услуги по уборке */
+/* 
+/
+/
+Связаться*/
+.contact {
+  background-color: #f1b5b8;
+}
+
+.contactWraper {
+  max-width: 1300px;
+  margin: 0px auto;
+}
+.contactFlex {
+  display: flex;
+}
+.contactFlexText {
+  padding: 50px 40px 50px 30px;
+}
+.contactTextH3 {
+}
+.h3ContactText {
+  display: block;
+  color: #fff;
+  font-size: 3.75rem;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+.contactTextP1 {
+}
+.p1ContactText {
+  font-size: 1.875rem;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.contactTextP2 {
+}
+.p2ContactText {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.contactTextIcon {
+  display: flex;
+}
+.contactIcons {
+  border-radius: 50%;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+}
+.iconsContact {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 10px;
+  width: 30px;
+  height: 40px;
+}
+.contactFlexTel {
+  text-align: center;
+  padding: 100px;
+  background-color: #fff;
+  position: relative;
+  margin: -200px 40px 0px 0px;
+  height: 100%;
+}
+.contentP {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  color: #f1b5b8;
+}
+.contentSpan {
+  display: block;
+  padding-bottom: 20px;
+  white-space: nowrap;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+@media (max-width: 1100px) {
+  .contactFlexTel {
+    margin: -80px 40px 0px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .contactFlexTel {
+    padding: 35px;
+  }
+}
+@media (max-width: 650px) {
+  .contactFlex {
+    display: block;
+  }
+  .contactFlexTel {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+.telephone {
+}
+.address {
+}
+.job {
+}
+/* 
+/
+/
+Связаться*/
+/* 
+/
+/
+футер*/
+.futer {
+  background-color: #000;
+}
+.futerText {
+  color: #fff;
+  max-width: 400px;
+  margin: 0px auto;
+  padding: 50px 20px;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+/* 
+/
+/
+футер*/
